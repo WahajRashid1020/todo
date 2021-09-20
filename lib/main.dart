@@ -1,4 +1,4 @@
-import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo/add.dart';
@@ -8,9 +8,7 @@ import 'package:todo/todolist.widget.dart';
 // import 'package:todo/todowidget.dart';
 // import 'package:velocity_x/velocity_x.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+void main() {
   runApp(MyApp());
 }
 
